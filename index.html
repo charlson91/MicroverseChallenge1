@@ -9,5 +9,29 @@
 <body>
  <h1 id="title">Tell about a music</h1> 
  <p id="description">A brief survey about my favorite music</p> 
+ <form id="survey_form"></form>
+ <label id="name-label">Name</label>
+ <input type="text" name = "name" required placeholder="First Name">
+ <label id="email-label">Email</label>
+ <input type="email" id = "email" required placeholder="Email Address">
+ <label id="number-label">Number</label>
+ <input type="number" name = "name" id="number" min="0" max="0" required placeholder="Number">
+ <select id="dropdown" name="guitar"></select>
+ <option value="fenders">fenders</option>
+ <option value="Martins">martins</option> 
+ <option value="Epiphone">epiphone</option> 
+ <option value="others">others</option> 
+
+ <div id="radio-button-area">
+     <input type="radio" class="radio-inline" id="male" name = "gender" value = "male">
+     <input type="radio" class="radio-inline" id="female" name = "gender" value = "female">
+     <input type="radio" class="radio-inline" id="other" name = "gender" value = "other">
+ </div>
+ <input type="checkbox" id="vehicle 1" name="vehicle 1" value="Bike">
+ <input type="checkbox" id="vehicle 1" name="vehicle 2" value="Car">
+ <input type="checkbox" id="vehicle 1" name="vehicle 3" value="Boat">
+
+ <textarea placeholder="Additional Comment" form="useform">Enter text</textarea>
+ <input type="submit" id = "submit">
 </body>
 </html>
